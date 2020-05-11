@@ -1,0 +1,222 @@
+% FortySecondsCV LaTeX template
+% Copyright © 2019-2020 René Wirnata <rene.wirnata@pandascience.net>
+% Licensed under the 3-Clause BSD License. See LICENSE file for details.
+%
+% Please visit https://github.com/PandaScience/FortySecondsCV for the most
+% recent version! For bugs or feature requests, please open a new issue on
+% github.
+%
+% Contributors
+% ------------
+% * ifokkema
+% * Bertbk
+% * Hespe
+%
+% Attributions
+% ------------
+% * fortysecondscv is based on the twentysecondcv class by Carmine Spagnuolo
+%   (cspagnuolo@unisa.it), released under the MIT license and available under
+%   https://github.com/spagnuolocarmine/TwentySecondsCurriculumVitae-LaTex
+% * further attributions are indicated immediately before corresponding code
+
+
+%-------------------------------------------------------------------------------
+%                             ADDITIONAL PACKAGES
+%-------------------------------------------------------------------------------
+\documentclass[
+	a4paper,
+	% showframes,
+	% vline=2.2em,
+	% maincolor=cvgreen,
+	% sidecolor=gray!50,
+	% sectioncolor=red,
+	% subsectioncolor=orange,
+	% itemtextcolor=black!80,
+	% sidebarwidth=0.4\paperwidth,
+	% topbottommargin=0.03\paperheight,
+	% leftrightmargin=20pt,
+	% profilepicsize=4.5cm,
+	% profilepicborderwidth=3.5pt,
+	% profilepicstyle=profilecircle,
+	% profilepiczoom=1.0,
+	% profilepicxshift=0mm,
+	% profilepicyshift=0mm,
+	% profilepicrounding=1.0cm,
+]{fortysecondscv}
+
+% improve word spacing and hyphenation
+\usepackage{microtype}
+\usepackage{ragged2e}
+\usepackage{verbatim}
+
+
+% uncomment in case you don't want any hyphenation
+% \usepackage[none]{hyphenat}
+
+% take care of proper font encoding
+\ifxetexorluatex
+	\usepackage{fontspec}
+	\defaultfontfeatures{Ligatures=TeX}
+%	\newfontfamily\headingfont[Path = fonts/]{segoeuib.ttf} % local font
+\else
+	\usepackage[utf8]{inputenc}
+	\usepackage[T1]{fontenc}
+%	\usepackage[sfdefault]{noto} % use noto google font
+\fi
+
+% enable mathematical syntax for some symbols like \varnothing
+\usepackage{amssymb}
+
+% bubble diagram configuration
+\usepackage{smartdiagram}
+\smartdiagramset{
+	% default font size is \large, so adjust to harmonize with sidebar layout
+	bubble center node font = \footnotesize,
+	bubble node font = \footnotesize,
+	% default: 4cm/2.5cm; make minimum diameter relative to sidebar size
+	bubble center node size = 0.4\sidebartextwidth,
+	bubble node size = 0.25\sidebartextwidth,
+	distance center/other bubbles = 1.5em,
+	% set center bubble color
+	bubble center node color = maincolor!70,
+	% define the list of colors usable in the diagram
+	set color list = {maincolor!10, maincolor!40,
+	maincolor!20, maincolor!60, maincolor!35},
+	% sets the opacity at which the bubbles are shown
+	bubble fill opacity = 0.8,
+}
+
+
+%-------------------------------------------------------------------------------
+%                            PERSONAL INFORMATION
+%-------------------------------------------------------------------------------
+%% mandatory information
+% your name
+\cvname{FRYDRYCHOWSKI\\[0.2em] Valentin}
+% job title/career
+\cvjobtitle{Etudiant}
+
+%% optional information
+% profile picture
+\cvprofilepic{pics/profile.png}
+
+% NOTE: ordering in sidebar will mimic the following order
+% date of birth
+\cvbirthday{2 mars 1999}
+% short address/location, use \newline if more than 1 line is required
+\cvaddress{10 boulevard Marechal Leclrec \newline 81100 Castres}
+% phone number
+\cvphone{+336 82 71 36 68}
+% personal website
+%%\cvsite{https://pandascience.net}
+% email address
+\cvmail{frydrychowskiv@gmail.com}
+% pgp key
+%%\cvkey{4096R/FF00FF00}{0xAABBCCDDFF00FF00}
+% any other custom entry
+%%\cvcustomdata{\faFlag}{Chinese}
+
+%-------------------------------------------------------------------------------
+%                              SIDEBAR 1st PAGE
+%-------------------------------------------------------------------------------
+% add more profile sections to sidebar on first page
+\addtofrontsidebar{
+	% include gosquare national flags from https://github.com/gosquared/flags;
+	% naming according to ISO 3166-1 alpha-2 country codes
+	\graphicspath{{pics/flags/}}
+
+	% social network accounts incl. proper hyperlinks
+	\profilesection{Social Network}
+		\begin{icontable}{2.5em}{1em}
+			\social{\faGithub}
+				{https://github.com/vfrydrychowski}
+				{https://github.com/vfrydrychowski}
+		\end{icontable}
+
+	\profilesection{Languages}
+	    \skill{\flag{FR.png}}{Français}
+	    \skill{\flag{GB.png}}{Anglais}
+		\skill{\flag{DE.png}}{Allemand}
+	    
+
+	\profilesection{Compétences}
+	    \skill{\faCode}{Programmation}
+		\skill[1.8em]{\faCodeBranch}{Git}
+		\skill[1.8em]{\faJava}{Java}
+		\skill[1.8em]{\faCuttlefish}{C}
+		\skill[1.8em]{\faMicrochip}{Arduino}
+		\skill[1.8em]{\faPython}{Python}
+		\skill[1.8em]{\faFile*}{LaTeX}
+		\skill{\faMusic}{Music}
+		\skill[1.8em]{\faGuitar}{Guitariste}
+		\skill[1.8em]{\faPlayCircle}{Cubase}
+		\skill[1.8em]{\faMicrophone*}{Prise de son}
+		\skill{\faDesktop}{Suite bureautique}
+		\skill{\faCar}{Permis}
+		\skill{\faTools}{Bricoleur}
+		
+
+%	\profilesection{Soft Skills}
+%		\pointskill{\faHome}{Looking Cute}{4}[4]
+%        \skill[1.8em]{\faCompress}{No need to specify further}
+%   	\pointskill{\faChild}{Chillin' hard}{3}[4]
+%		\skill[1.8em]{\faCompress}{On a tree}
+%		\skill[1.8em]{\faCompress}{In the grass}
+
+}
+
+
+
+%-------------------------------------------------------------------------------
+%                         TABLE ENTRIES RIGHT COLUMN
+%-------------------------------------------------------------------------------
+\begin{document}
+
+\makefrontsidebar
+
+
+
+
+\cvsection{Etudes}
+
+\begin{cvtable}[3.5]
+	\cvitem{2018 -- 2020}{CUPGE}{Universitée Toulouse III}
+	{Classe Universitaire Préparatoire aux Grandes Ecoles en \\ mathématiques et informatique.}
+	\cvitem{2017}{BAC SSI}{Lycée de la borde basse}
+	{Bac mention bien, option Scientifique Sciences de l'Ingénieur,\\ specialité math.}
+	\cvitem{2016}{BIA}{Aérodrome Castres-Mazamet}
+	{Brevet d'Initiation Aéronautique}
+\end{cvtable}
+
+
+
+\cvsection{Experience}
+\subsection{Jobs d'été : }
+\begin{cvtable}[3.5]
+	\cvitem{2018}{Technicien}{Electronic-81}{
+		Installation et entretient d'antennes TV, de cameras et autre \\dispositif de sécurité, réparation et livraison de TV, point relais de colis. \\Contact direct avec les clients et mobilité dans tout le sud de la france, cela demande de l'initiative, de la prise de réponsabilité et de l'adaptation.}
+	\cvitem{2017}{Déménageur}{Passebosc}{
+		Chargement et déchargement d'objets divers en travaillant en équipe.}
+\end{cvtable}
+
+\subsection{Projets scolaire : }
+\begin{cvtable}[3.5]
+	\cvitem{2020}{Byblio-Tech}{CUPGE}{
+		Programme C de gestion de ressources fictives, développement en duo. Gains d'expérience de gestions de projets, communications et developpement en language C.\\ \hyperlink{https://github.com/vfrydrychowski/Byblio-Tech}{https://github.com/vfrydrychowski/Byblio-Tech}}
+	\cvitem{2019}{Kregit}{CUPGE}{
+		Gestion de ressources d'une banque fictive. \\ \hyperlink{https://github.com/ctruillet/KreGit}{https://github.com/ctruillet/KreGit}}
+\end{cvtable}
+
+\cvsection{Hobbies}
+\begin{cvtable}[3.5]
+	\cvitem{Musique}{Missing No.}{}{
+		Interprete et compositeur au sein de cette formation.}
+	\cvitem{}{Waiti studio}{}{
+		Apprentissage de la production musical, de la prise de son à son traitement. Enseignement fourni sur la base de mon volontariat au travers de différents projets du studio.}
+	\cvitem{Sport}{Judo}{}{Ceinture noire 1ere dan}
+	%	\cvitem{Musique}{Membre d'un groupe de musique\\ Apprentissage des techniques d'enregistrement et de traitement du son au waiti studio. }{}
+	%	\cvitem{Sport}{1ere dan de Judo.}{}
+\end{cvtable}
+
+
+\end{document}
