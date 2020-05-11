@@ -1,13 +1,13 @@
 # Fdb version 3
-["xdvipdfmx"] 1589205967 "/home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.xdv" "/home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.pdf" "/home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv" 1589205968
-  "/home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.xdv" 1589205967 52256 4fa4cbbd174f368294381fe8fd559da6 "xelatex"
+["xdvipdfmx"] 1589210344 "/home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.xdv" "/home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.pdf" "/home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv" 1589210344
+  "/home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.xdv" 1589210344 52260 1ce9b170cbe6480411a520d6414279f2 "xelatex"
   (generated)
   "/home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.pdf"
-["xelatex"] 1589205966 "/home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.tex" "/home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.xdv" "cv" 1589205968
+["xelatex"] 1589210342 "/home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.tex" "/home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.xdv" "cv" 1589210344
   "/dev/null" 1589195519 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/etc/texmf/web2c/texmf.cnf" 1588768297 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.aux" 1589205967 915 f871b0a209c7e992d26ca21c634eef8b ""
-  "/home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.tex" 1589205965 7655 9576775429e130bd819b95b5e4f73751 ""
+  "/home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.aux" 1589210344 915 f871b0a209c7e992d26ca21c634eef8b ""
+  "/home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.tex" 1589210342 7652 baba1925b0c795d53912cee23609b333 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1480098689 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -188,18 +188,18 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1551493644 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
   "/usr/share/texmf/web2c/texmf.cnf" 1551493644 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1588819949 3739561 0c034fbff57657fc8b59053158bed5ae ""
-  "cv.aux" 1589205967 915 f871b0a209c7e992d26ca21c634eef8b ""
-  "cv.out" 1589205967 123 a8fc0b78955789ee9dd5054e9def2e62 ""
-  "cv.tex" 1589205965 7655 9576775429e130bd819b95b5e4f73751 ""
+  "cv.aux" 1589210344 915 f871b0a209c7e992d26ca21c634eef8b ""
+  "cv.out" 1589210344 123 a8fc0b78955789ee9dd5054e9def2e62 ""
+  "cv.tex" 1589210342 7652 baba1925b0c795d53912cee23609b333 ""
   "fortysecondscv.cls" 1589102886 21770 04f3ae97a71f3ce84756792b3014c5da ""
   "pics/flags/DE.png" 1589102886 1430 c9610f0d2105dc26c2fc25fa4c41d190 ""
   "pics/flags/FR.png" 1589102886 1563 35b23cb8a9ace025ac01e41ae8006d62 ""
   "pics/flags/GB.png" 1589102886 3833 a8530a96e01c7d218faf8ac83f999662 ""
-  "pics/profile.png" 1589102886 333488 a77411bd5c537f254f1e7eca0d06a8d8 ""
+  "pics/profile.png" 1589208318 1555038 c11da591030b1dd02b0a97ccb11b4f16 ""
   (generated)
-  "/home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.log"
-  "cv.out"
   "cv.log"
-  "cv.aux"
+  "/home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.log"
   "cv.xdv"
   "/home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.xdv"
+  "cv.out"
+  "cv.aux"

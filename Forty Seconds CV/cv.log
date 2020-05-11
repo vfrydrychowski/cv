@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2020.5.7)  11 MAY 2020 16:06
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2020.5.7)  11 MAY 2020 17:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1322,10 +1322,10 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  37617 strings out of 492912
  742425 string characters out of 6134894
- 894335 words of memory out of 5000000
+ 894427 words of memory out of 5000000
  41110 multiletter control sequences out of 15000+600000
  534589 words of font info for 57 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,13n,74p,842b,887s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.xdv (1 page, 52256 bytes).
+Output written on /home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.xdv (1 page, 52260 bytes).
