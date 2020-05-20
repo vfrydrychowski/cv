@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2020.5.7)  11 MAY 2020 17:39
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2020.5.7)  20 MAY 2020 17:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1295,37 +1295,46 @@ LaTeX Font Info:    Font shape `TU/ClearSans(0)/bx/n' will be
 Requested font "[ClearSans-Bold.ttf]/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.0pt
  -> /usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Bold.ttf
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/bx/n' will be
-(Font)              scaled to size 17.28pt on input line 180.
+(Font)              scaled to size 24.88pt on input line 180.
+Requested font "[ClearSans-Bold.ttf]/OT:script=latn;language=DFLT;mapping=tex-text;" at 24.88pt
+ -> /usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Bold.ttf
+LaTeX Font Info:    Font shape `TU/ClearSans(0)/bx/n' will be
+(Font)              scaled to size 17.28pt on input line 183.
 Requested font "[ClearSans-Bold.ttf]/OT:script=latn;language=DFLT;mapping=tex-text;" at 17.28pt
  -> /usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Bold.ttf
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 184.
+(Font)              scaled to size 8.0pt on input line 187.
 Requested font "[ClearSans-Regular.ttf]/OT:script=latn;language=DFLT;mapping=tex-text;" at 8.0pt
  -> /usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Regular.ttf
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 194.
+(Font)              scaled to size 12.0pt on input line 197.
 Requested font "[ClearSans-Regular.ttf]/OT:script=latn;language=DFLT;mapping=tex-text;" at 12.0pt
  -> /usr/share/texlive/texmf-dist/fonts/truetype/intel/clearsans/ClearSans-Regular.ttf
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
-) [1
+)
+Underfull \hbox (badness 3623) in paragraph at lines 200--200
+\TU/ClearSans(0)/m/n/10 Demande de l’initiative, de la prise de réponsabilité et de
+ []
+
+[1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 222.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 225.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 225.
  (/home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 222.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 222.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 225.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 225.
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: 063EBC82041C0B0E6053F07CB734F388.
  ) 
 Here is how much of TeX's memory you used:
- 37617 strings out of 492912
- 742425 string characters out of 6134894
- 894433 words of memory out of 5000000
- 41110 multiletter control sequences out of 15000+600000
- 534589 words of font info for 57 fonts, out of 8000000 for 9000
+ 37620 strings out of 492912
+ 742553 string characters out of 6134894
+ 895600 words of memory out of 5000000
+ 41112 multiletter control sequences out of 15000+600000
+ 534597 words of font info for 58 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,13n,74p,842b,887s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.xdv (1 page, 51520 bytes).
+Output written on /home/fryghsot/Documents/LaTeX/cv/Forty Seconds CV/cv.xdv (1 page, 51984 bytes).
